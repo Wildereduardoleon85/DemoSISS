@@ -11,8 +11,8 @@
   DTS:LocaleID="13322"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="17"
-  DTS:VersionGUID="{4713BDEE-F44F-4515-BE22-B50AD60BAF44}">
+  DTS:VersionBuild="18"
+  DTS:VersionGUID="{BB5B6015-9D28-4F53-93B5-20A673246050}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -23,7 +23,7 @@
       DTS:ObjectName="CL2467474W1.EY">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=CL2467474W1;Initial Catalog=EY;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=DESKTOP-FBMU3VI;Initial Catalog=EY;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -33,7 +33,7 @@
       DTS:ObjectName="inputs">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=CL2467474W1;Initial Catalog=inputs;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=DESKTOP-FBMU3VI;Initial Catalog=inputs;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -55,7 +55,7 @@
         DTS:Name="ExcelFilePath">"C:\\Users\\XQ835GT\\source\\repos\\Demo\\tabla1("+ (DT_WSTR,50) @[User::periodoSIMP]   +").xlsx"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\XQ835GT\source\repos\Demo\tabla1(202101).xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\XQ835GT\source\repos\Demo\tabla1(202102).xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -67,7 +67,7 @@
         DTS:Name="ExcelFilePath">"C:\\Users\\XQ835GT\\source\\repos\\Demo\\tabla2("+ (DT_WSTR,50) @[User::periodoSIMP]   +").xlsx"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\XQ835GT\source\repos\Demo\tabla2(202101).xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\XQ835GT\source\repos\Demo\tabla2(202102).xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -79,7 +79,7 @@
         DTS:Name="ExcelFilePath">"C:\\Users\\XQ835GT\\source\\repos\\Demo\\tabla3("+ (DT_WSTR,50) @[User::periodoSIMP]   +").xlsx"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\XQ835GT\source\repos\Demo\tabla3(202101).xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\XQ835GT\source\repos\Demo\tabla3(202102).xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -98,7 +98,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\XQ835GT\source\repos\Demo\tabla4(202101).csv">
+          DTS:ConnectionString="C:\Users\XQ835GT\source\repos\Demo\tabla4(202102).csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -156,7 +156,7 @@
       DTS:ObjectName="tblEmployee">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=CL2467474W1\PRODAPPS040;Initial Catalog=Data1;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=DESKTOP-FBMU3VI;Initial Catalog=Data1;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -170,7 +170,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="nombreTablaEmployee">
       <DTS:VariableValue
-        DTS:DataType="8">[dbo].[tblEmployee202101]</DTS:VariableValue>
+        DTS:DataType="8">[dbo].[tblEmployee202102]</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -181,7 +181,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="periodoSIMP">
       <DTS:VariableValue
-        DTS:DataType="3">202101</DTS:VariableValue>
+        DTS:DataType="3">202102</DTS:VariableValue>
     </DTS:Variable>
   </DTS:Variables>
   <DTS:Executables>
@@ -194,7 +194,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="cargaHistTbl1"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="3">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -242,7 +242,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="cargaHistTbl3"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -266,7 +266,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="cargaHistTbl4"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="3">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -2951,47 +2951,51 @@
       DTS:To="Package\ReporteFinal" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
-<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
-<!--If you manually edit this section and make a mistake, you can delete it. -->
-<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
+<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
+<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
 <Objects
   Version="8">
-  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
   <Package
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="145.333333333334,42.6666666666667"
+          Size="145.6,42.4"
           Id="Package\cargaHistTbl1"
           TopLeft="44.6874993341044,225.105267394943" />
         <NodeLayout
-          Size="145.333333333334,42.6666666666667"
+          Size="145.6,42.4"
           Id="Package\cargaHistTbl2"
           TopLeft="209.687496875413,225.105267394943" />
         <NodeLayout
-          Size="145.333333333334,42.6666666666667"
+          Size="145.6,42.4"
           Id="Package\cargaHistTbl3"
           TopLeft="377.187494379468,224.421056855749" />
         <NodeLayout
-          Size="145.333333333334,42.6666666666667"
+          Size="145.6,42.4"
           Id="Package\cargaHistTbl4"
           TopLeft="544.618047440114,224.269010069261" />
         <NodeLayout
-          Size="168,42.6666666666667"
+          Size="141.6,42.4"
+          Id="Package\cargaHistTblEmployee"
+          TopLeft="46.8749993015081,291.052636022053" />
+        <NodeLayout
+          Size="168,42.4"
           Id="Package\extraerDataOrigen"
           TopLeft="243.437496372499,130.000002446928" />
         <NodeLayout
-          Size="181.333333333334,42.6666666666667"
+          Size="181.6,42.4"
           Id="Package\generarTablaReporte"
           TopLeft="272.239579508443,413.830414343593" />
         <NodeLayout
-          Size="146.666666666667,42.6666666666667"
+          Size="146.4,42.4"
           Id="Package\limpiezaInicial"
           TopLeft="248.437496297993,23.9473688718024" />
         <NodeLayout
-          Size="141.333333333334,42.6666666666667"
+          Size="141.6,42.4"
           Id="Package\ReporteFinal"
           TopLeft="276.822912541683,509.269014555295" />
         <EdgeLayout
@@ -3042,6 +3046,74 @@
                     Point3="-210.083330371728,30.2192991406744" />
                   <mssgle:LineSegment
                     End="-210.083330371728,44.9385982813488" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 10]"
+          TopLeft="300.770829705832,172.666669113595">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-183.229163737658,118.385966908458"
+              Start="0,0"
+              End="-183.229163737658,110.885966908458">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,44.0244960100348" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,44.0244960100348"
+                    Point2="0,48.0244960100348"
+                    Point3="-4,48.0244960100348" />
+                  <mssgle:LineSegment
+                    End="-179.229163737658,48.0244960100348" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-179.229163737658,48.0244960100348"
+                    Point2="-183.229163737658,48.0244960100348"
+                    Point3="-183.229163737658,52.0244960100348" />
+                  <mssgle:LineSegment
+                    End="-183.229163737658,110.885966908458" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 11]"
+          TopLeft="117.541665968175,333.719302688719">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="216.475691318046,80.1111116548732"
+              Start="0,0"
+              End="216.475691318046,72.6111116548732">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,43.646258826805" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,43.646258826805"
+                    Point2="0,47.646258826805"
+                    Point3="4,47.646258826805" />
+                  <mssgle:LineSegment
+                    End="212.475691318046,47.646258826805" />
+                  <mssgle:CubicBezierSegment
+                    Point1="212.475691318046,47.646258826805"
+                    Point2="216.475691318046,47.646258826805"
+                    Point3="216.475691318046,51.646258826805" />
+                  <mssgle:LineSegment
+                    End="216.475691318046,72.6111116548732" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3314,78 +3386,6 @@
                     Point3="-15.41666696676,30.3859667725178" />
                   <mssgle:LineSegment
                     End="-15.41666696676,45.2719335450357" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="141.333333333334,42.6666666666667"
-          Id="Package\cargaHistTblEmployee"
-          TopLeft="46.8749993015081,291.052636022053" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 10]"
-          TopLeft="300.770829705832,172.666669113595">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-183.229163737658,118.385966908458"
-              Start="0,0"
-              End="-183.229163737658,110.885966908458">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,44.0244960100348" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,44.0244960100348"
-                    Point2="0,48.0244960100348"
-                    Point3="-4,48.0244960100348" />
-                  <mssgle:LineSegment
-                    End="-179.229163737658,48.0244960100348" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-179.229163737658,48.0244960100348"
-                    Point2="-183.229163737658,48.0244960100348"
-                    Point3="-183.229163737658,52.0244960100348" />
-                  <mssgle:LineSegment
-                    End="-183.229163737658,110.885966908458" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 11]"
-          TopLeft="117.541665968175,333.719302688719">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="216.475691318046,80.1111116548732"
-              Start="0,0"
-              End="216.475691318046,72.6111116548732">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,43.646258826805" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,43.646258826805"
-                    Point2="0,47.646258826805"
-                    Point3="4,47.646258826805" />
-                  <mssgle:LineSegment
-                    End="212.475691318046,47.646258826805" />
-                  <mssgle:CubicBezierSegment
-                    Point1="212.475691318046,47.646258826805"
-                    Point2="216.475691318046,47.646258826805"
-                    Point3="216.475691318046,51.646258826805" />
-                  <mssgle:LineSegment
-                    End="216.475691318046,72.6111116548732" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>

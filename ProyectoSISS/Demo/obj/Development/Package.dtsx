@@ -11,8 +11,8 @@
   DTS:LocaleID="13322"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="17"
-  DTS:VersionGUID="{4713BDEE-F44F-4515-BE22-B50AD60BAF44}">
+  DTS:VersionBuild="25"
+  DTS:VersionGUID="{547D7D52-9334-42E6-B626-B4749D707839}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -23,7 +23,7 @@
       DTS:ObjectName="CL2467474W1.EY">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=CL2467474W1;Initial Catalog=EY;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=DESKTOP-FBMU3VI;Initial Catalog=EY;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -33,7 +33,7 @@
       DTS:ObjectName="inputs">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=CL2467474W1;Initial Catalog=inputs;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=DESKTOP-FBMU3VI;Initial Catalog=inputs;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -43,19 +43,19 @@
       DTS:ObjectName="ReporteFinal">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\XQ835GT\source\repos\Demo\ReporteFinal\ReporteFinal.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Wilder\OneDrive\Documentos\DemoSISS\Archivos Origen\ReporteFinal\ReporteFinal.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[tabla1]"
       DTS:CreationName="EXCEL"
-      DTS:DTSID="{CCA1E2B2-306A-4830-B0AE-3AD23E5E2227}"
+      DTS:DTSID="{A98FD76F-993F-434B-AA2A-971055FD39E3}"
       DTS:ObjectName="tabla1">
       <DTS:PropertyExpression
-        DTS:Name="ExcelFilePath">"C:\\Users\\XQ835GT\\source\\repos\\Demo\\tabla1("+ (DT_WSTR,50) @[User::periodoSIMP]   +").xlsx"</DTS:PropertyExpression>
+        DTS:Name="ExcelFilePath">"C:\\Users\\Wilder\\OneDrive\\Documentos\\DemoSISS\\Archivos Origen\\tabla1("+ (DT_WSTR,50) @[User::periodoSIMP]   +").xlsx"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\XQ835GT\source\repos\Demo\tabla1(202102).xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Wilder\OneDrive\Documentos\DemoSISS\Archivos Origen\tabla1(202102).xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -64,10 +64,10 @@
       DTS:DTSID="{1C1DA22C-20F7-4868-B655-2014A8E07BA1}"
       DTS:ObjectName="tabla2">
       <DTS:PropertyExpression
-        DTS:Name="ExcelFilePath">"C:\\Users\\XQ835GT\\source\\repos\\Demo\\tabla2("+ (DT_WSTR,50) @[User::periodoSIMP]   +").xlsx"</DTS:PropertyExpression>
+        DTS:Name="ExcelFilePath">"C:\\Users\\Wilder\\OneDrive\\Documentos\\DemoSISS\\Archivos Origen\\tabla2("+ (DT_WSTR,50) @[User::periodoSIMP]   +").xlsx"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\XQ835GT\source\repos\Demo\tabla2(202102).xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Wilder\OneDrive\Documentos\DemoSISS\Archivos Origen\tabla2(202102).xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -76,10 +76,10 @@
       DTS:DTSID="{14B6A243-83DE-4D67-802F-7B3660971F39}"
       DTS:ObjectName="tabla3">
       <DTS:PropertyExpression
-        DTS:Name="ExcelFilePath">"C:\\Users\\XQ835GT\\source\\repos\\Demo\\tabla3("+ (DT_WSTR,50) @[User::periodoSIMP]   +").xlsx"</DTS:PropertyExpression>
+        DTS:Name="ExcelFilePath">"C:\\Users\\Wilder\\OneDrive\\Documentos\\DemoSISS\\Archivos Origen\\tabla3("+ (DT_WSTR,50) @[User::periodoSIMP]   +").xlsx"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\XQ835GT\source\repos\Demo\tabla3(202102).xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Wilder\OneDrive\Documentos\DemoSISS\Archivos Origen\tabla3(202102).xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -88,7 +88,7 @@
       DTS:DTSID="{42091D19-517C-46AE-91C0-0E5000FD6C12}"
       DTS:ObjectName="tabla4">
       <DTS:PropertyExpression
-        DTS:Name="ConnectionString">"C:\\Users\\XQ835GT\\source\\repos\\Demo\\tabla4("+ (DT_WSTR,50) @[User::periodoSIMP] +").csv"</DTS:PropertyExpression>
+        DTS:Name="ConnectionString">"C:\\Users\\Wilder\\OneDrive\\Documentos\\DemoSISS\\Archivos Origen\\tabla4("+ (DT_WSTR,50) @[User::periodoSIMP] +").csv"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -98,7 +98,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\XQ835GT\source\repos\Demo\tabla4(202102).csv">
+          DTS:ConnectionString="C:\Users\Wilder\OneDrive\Documentos\DemoSISS\Archivos Origen\tabla4(202102).csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -156,21 +156,19 @@
       DTS:ObjectName="tblEmployee">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=CL2467474W1\PRODAPPS040;Initial Catalog=Data1;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=DESKTOP-FBMU3VI;Initial Catalog=Data1;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
   <DTS:Variables>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{6635D6A0-158F-4B83-B232-427016875AEC}"
-      DTS:EvaluateAsExpression="True"
-      DTS:Expression="&quot;[dbo].[tblEmployee&quot; + (DT_WSTR,50) @[User::periodoSIMP]  + &quot;]&quot;"
+      DTS:DTSID="{56348747-16DA-4448-B01A-6ACC782B27DD}"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
-      DTS:ObjectName="nombreTablaEmployee">
+      DTS:ObjectName="hojaExc">
       <DTS:VariableValue
-        DTS:DataType="8">[dbo].[tblEmployee202102]</DTS:VariableValue>
+        DTS:DataType="8">data$</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -183,6 +181,17 @@
       <DTS:VariableValue
         DTS:DataType="3">202102</DTS:VariableValue>
     </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{6635D6A0-158F-4B83-B232-427016875AEC}"
+      DTS:EvaluateAsExpression="True"
+      DTS:Expression="&quot;[dbo].[tblEmployee&quot; + (DT_WSTR,50) @[User::periodoSIMP]  + &quot;]&quot;"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="tblEmployee">
+      <DTS:VariableValue
+        DTS:DataType="8">[dbo].[tblEmployee202102]</DTS:VariableValue>
+    </DTS:Variable>
   </DTS:Variables>
   <DTS:Executables>
     <DTS:Executable
@@ -194,7 +203,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="cargaHistTbl1"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="4">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -218,7 +227,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="cargaHistTbl2"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="3">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -242,7 +251,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="cargaHistTbl3"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="4">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -266,7 +275,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="cargaHistTbl4"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="3">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -517,7 +526,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[tabla1Temp]</property>
+                  name="OpenRowset">[dbo].[tabla1Temp]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -1751,7 +1760,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
-                  name="OpenRowsetVariable">User::nombreTablaEmployee</property>
+                  name="OpenRowsetVariable">User::tblEmployee</property>
                 <property
                   dataType="System.String"
                   description="The SQL command to be executed."
@@ -2172,19 +2181,19 @@
           <paths>
             <path
               refId="Package\extraerDataOrigen.Paths[Excel Source Output]"
-              endId="Package\extraerDataOrigen\tabla1Temp.Inputs[OLE DB Destination Input]"
-              name="Excel Source Output"
-              startId="Package\extraerDataOrigen\tabla1.Outputs[Excel Source Output]" />
-            <path
-              refId="Package\extraerDataOrigen.Paths[Excel Source Output1]"
               endId="Package\extraerDataOrigen\tabla2Temp.Inputs[OLE DB Destination Input]"
               name="Excel Source Output"
               startId="Package\extraerDataOrigen\tabla2.Outputs[Excel Source Output]" />
             <path
-              refId="Package\extraerDataOrigen.Paths[Excel Source Output2]"
+              refId="Package\extraerDataOrigen.Paths[Excel Source Output1]"
               endId="Package\extraerDataOrigen\tabla3Temp.Inputs[OLE DB Destination Input]"
               name="Excel Source Output"
               startId="Package\extraerDataOrigen\tabla3.Outputs[Excel Source Output]" />
+            <path
+              refId="Package\extraerDataOrigen.Paths[Excel Source Output2]"
+              endId="Package\extraerDataOrigen\tabla1Temp.Inputs[OLE DB Destination Input]"
+              name="Excel Source Output"
+              startId="Package\extraerDataOrigen\tabla1.Outputs[Excel Source Output]" />
             <path
               refId="Package\extraerDataOrigen.Paths[Flat File Source Output]"
               endId="Package\extraerDataOrigen\tabla4Temp.Inputs[OLE DB Destination Input]"
@@ -2951,49 +2960,53 @@
       DTS:To="Package\ReporteFinal" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
-<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
-<!--If you manually edit this section and make a mistake, you can delete it. -->
-<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
+<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
+<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
 <Objects
   Version="8">
-  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
   <Package
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="145.333333333334,42.6666666666667"
+          Size="145.6,42.4"
           Id="Package\cargaHistTbl1"
           TopLeft="44.6874993341044,225.105267394943" />
         <NodeLayout
-          Size="145.333333333334,42.6666666666667"
+          Size="145.6,42.4"
           Id="Package\cargaHistTbl2"
           TopLeft="209.687496875413,225.105267394943" />
         <NodeLayout
-          Size="145.333333333334,42.6666666666667"
+          Size="145.6,42.4"
           Id="Package\cargaHistTbl3"
           TopLeft="377.187494379468,224.421056855749" />
         <NodeLayout
-          Size="145.333333333334,42.6666666666667"
+          Size="145.6,42.4"
           Id="Package\cargaHistTbl4"
           TopLeft="544.618047440114,224.269010069261" />
         <NodeLayout
-          Size="168,42.6666666666667"
+          Size="141.6,42.4"
+          Id="Package\cargaHistTblEmployee"
+          TopLeft="46.8749993015081,291.052636022053" />
+        <NodeLayout
+          Size="168,42.4"
           Id="Package\extraerDataOrigen"
           TopLeft="243.437496372499,130.000002446928" />
         <NodeLayout
-          Size="181.333333333334,42.6666666666667"
+          Size="181.6,42.4"
           Id="Package\generarTablaReporte"
           TopLeft="272.239579508443,413.830414343593" />
         <NodeLayout
-          Size="146.666666666667,42.6666666666667"
+          Size="146.4,42.4"
           Id="Package\limpiezaInicial"
           TopLeft="248.437496297993,23.9473688718024" />
         <NodeLayout
-          Size="141.333333333334,42.6666666666667"
+          Size="141.6,42.4"
           Id="Package\ReporteFinal"
-          TopLeft="276.822912541683,509.269014555295" />
+          TopLeft="290.156245345197,509.269014555295" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="324.604163001913,66.6140355384691">
@@ -3042,6 +3055,74 @@
                     Point3="-210.083330371728,30.2192991406744" />
                   <mssgle:LineSegment
                     End="-210.083330371728,44.9385982813488" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 10]"
+          TopLeft="300.770829705832,172.666669113595">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-183.229163737658,118.385966908458"
+              Start="0,0"
+              End="-183.229163737658,110.885966908458">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,44.0244960100348" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,44.0244960100348"
+                    Point2="0,48.0244960100348"
+                    Point3="-4,48.0244960100348" />
+                  <mssgle:LineSegment
+                    End="-179.229163737658,48.0244960100348" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-179.229163737658,48.0244960100348"
+                    Point2="-183.229163737658,48.0244960100348"
+                    Point3="-183.229163737658,52.0244960100348" />
+                  <mssgle:LineSegment
+                    End="-183.229163737658,110.885966908458" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 11]"
+          TopLeft="117.541665968175,333.719302688719">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="216.475691318046,80.1111116548732"
+              Start="0,0"
+              End="216.475691318046,72.6111116548732">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,43.646258826805" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,43.646258826805"
+                    Point2="0,47.646258826805"
+                    Point3="4,47.646258826805" />
+                  <mssgle:LineSegment
+                    End="212.475691318046,47.646258826805" />
+                  <mssgle:CubicBezierSegment
+                    Point1="212.475691318046,47.646258826805"
+                    Point2="216.475691318046,47.646258826805"
+                    Point3="216.475691318046,51.646258826805" />
+                  <mssgle:LineSegment
+                    End="216.475691318046,72.6111116548732" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3290,102 +3371,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 9]"
-          TopLeft="362.90624617511,456.497081010259">
+          TopLeft="361.99791242682,456.230414343593">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-15.41666696676,52.7719335450357"
+              EndConnector="0,53.038600211702"
               Start="0,0"
-              End="-15.41666696676,45.2719335450357">
+              End="0,45.538600211702">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,22.3859667725178" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,22.3859667725178"
-                    Point2="0,26.3859667725178"
-                    Point3="-4,26.3859667725178" />
-                  <mssgle:LineSegment
-                    End="-11.41666696676,26.3859667725178" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-11.41666696676,26.3859667725178"
-                    Point2="-15.41666696676,26.3859667725178"
-                    Point3="-15.41666696676,30.3859667725178" />
-                  <mssgle:LineSegment
-                    End="-15.41666696676,45.2719335450357" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="141.333333333334,42.6666666666667"
-          Id="Package\cargaHistTblEmployee"
-          TopLeft="46.8749993015081,291.052636022053" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 10]"
-          TopLeft="300.770829705832,172.666669113595">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-183.229163737658,118.385966908458"
-              Start="0,0"
-              End="-183.229163737658,110.885966908458">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,44.0244960100348" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,44.0244960100348"
-                    Point2="0,48.0244960100348"
-                    Point3="-4,48.0244960100348" />
-                  <mssgle:LineSegment
-                    End="-179.229163737658,48.0244960100348" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-179.229163737658,48.0244960100348"
-                    Point2="-183.229163737658,48.0244960100348"
-                    Point3="-183.229163737658,52.0244960100348" />
-                  <mssgle:LineSegment
-                    End="-183.229163737658,110.885966908458" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 11]"
-          TopLeft="117.541665968175,333.719302688719">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="216.475691318046,80.1111116548732"
-              Start="0,0"
-              End="216.475691318046,72.6111116548732">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,43.646258826805" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,43.646258826805"
-                    Point2="0,47.646258826805"
-                    Point3="4,47.646258826805" />
-                  <mssgle:LineSegment
-                    End="212.475691318046,47.646258826805" />
-                  <mssgle:CubicBezierSegment
-                    Point1="212.475691318046,47.646258826805"
-                    Point2="216.475691318046,47.646258826805"
-                    Point3="216.475691318046,51.646258826805" />
-                  <mssgle:LineSegment
-                    End="216.475691318046,72.6111116548732" />
+                    End="0,45.538600211702" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3403,45 +3400,37 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="138,42.6666666666667"
-          Id="Package\extraerDataOrigen\tblEmployee"
-          TopLeft="216.874996768311,252.57894926157" />
-        <NodeLayout
-          Size="109.333333333334,42.6666666666667"
-          Id="Package\extraerDataOrigen\tabla4"
-          TopLeft="63.749999050051,255.894741658689" />
-        <NodeLayout
-          Size="136,42.6666666666667"
-          Id="Package\extraerDataOrigen\tabla1Temp"
-          TopLeft="51.2499992363154,159.421055632285" />
-        <NodeLayout
-          Size="109.333333333334,42.6666666666667"
-          Id="Package\extraerDataOrigen\tabla3"
-          TopLeft="392.499994151294,33.5263164205234" />
-        <NodeLayout
-          Size="136,42.6666666666667"
-          Id="Package\extraerDataOrigen\tabla4Temp"
-          TopLeft="50.6249992456287,396.894743371538" />
-        <NodeLayout
-          Size="109.333333333334,42.6666666666667"
+          Size="109.6,42.4"
           Id="Package\extraerDataOrigen\tabla2"
           TopLeft="236.249996479601,32.1578953421347" />
         <NodeLayout
-          Size="130,42.6666666666667"
+          Size="129.6,42.4"
           Id="Package\extraerDataOrigen\tabla3Temp"
           TopLeft="388.124994216487,160.105266171479" />
         <NodeLayout
-          Size="137.333333333334,42.6666666666667"
+          Size="137.6,42.4"
+          Id="Package\extraerDataOrigen\tblEmployee"
+          TopLeft="216.874996768311,252.57894926157" />
+        <NodeLayout
+          Size="137.6,42.4"
           Id="Package\extraerDataOrigen\tblEmployeeTemp"
           TopLeft="218.124996749684,396.947373031579" />
         <NodeLayout
-          Size="109.333333333334,42.6666666666667"
-          Id="Package\extraerDataOrigen\tabla1"
-          TopLeft="57.4999991431833,34.8947374989121" />
-        <NodeLayout
-          Size="136,42.6666666666667"
+          Size="136,42.4"
           Id="Package\extraerDataOrigen\tabla2Temp"
           TopLeft="218.124996749684,161.473687249868" />
+        <NodeLayout
+          Size="109.6,42.4"
+          Id="Package\extraerDataOrigen\tabla4"
+          TopLeft="63.749999050051,255.894741658689" />
+        <NodeLayout
+          Size="136,42.4"
+          Id="Package\extraerDataOrigen\tabla4Temp"
+          TopLeft="50.6249992456287,396.894743371538" />
+        <NodeLayout
+          Size="109.6,42.4"
+          Id="Package\extraerDataOrigen\tabla3"
+          TopLeft="392.499994151294,33.5263164205234" />
         <EdgeLayout
           Id="Package\extraerDataOrigen.Paths[OLE DB Source Output]"
           TopLeft="286.333330092331,295.245615928237">
@@ -3487,7 +3476,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\extraerDataOrigen.Paths[Excel Source Output2]"
+          Id="Package\extraerDataOrigen.Paths[Excel Source Output1]"
           TopLeft="450.145827517224,76.1929830871901">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -3509,7 +3498,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\extraerDataOrigen.Paths[Excel Source Output1]"
+          Id="Package\extraerDataOrigen.Paths[Excel Source Output]"
           TopLeft="288.520829947976,74.8245620088014">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -3530,20 +3519,28 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="106.4,41.6"
+          Id="Package\extraerDataOrigen\tabla1"
+          TopLeft="58.3333310153751,32.933333595064" />
+        <NodeLayout
+          Size="129.6,41.6"
+          Id="Package\extraerDataOrigen\tabla1Temp"
+          TopLeft="48.3333314127393,161.200001281102" />
         <EdgeLayout
-          Id="Package\extraerDataOrigen.Paths[Excel Source Output]"
-          TopLeft="115.708332523083,77.5614041655788">
+          Id="Package\extraerDataOrigen.Paths[Excel Source Output2]"
+          TopLeft="112.333331214057,74.533333595064">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,81.859651466706"
+              EndConnector="0,86.6666676860385"
               Start="0,0"
-              End="0,74.359651466706">
+              End="0,79.1666676860385">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,74.359651466706" />
+                    End="0,79.1666676860385" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3555,58 +3552,6 @@
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\extraerDataOrigen\tblEmployee">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\extraerDataOrigen\tabla1Temp">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\extraerDataOrigen\tabla3">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\extraerDataOrigen\tabla4Temp">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\extraerDataOrigen\tabla2">
     <Properties>
@@ -3634,7 +3579,149 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
+    design-time-name="Package\extraerDataOrigen\tblEmployee">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\extraerDataOrigen\tblEmployeeTemp">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\extraerDataOrigen\tabla2Temp">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\extraerDataOrigen\tabla4Temp">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\extraerDataOrigen\tabla3">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\ReporteFinal">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="181.6,42.4"
+          Id="Package\ReporteFinal\guardarTablaReporte"
+          TopLeft="393,235" />
+        <NodeLayout
+          Size="158.4,42.4"
+          Id="Package\ReporteFinal\Data Conversion"
+          TopLeft="407,150" />
+        <NodeLayout
+          Size="181.6,42.4"
+          Id="Package\ReporteFinal\generarTablaReporte"
+          TopLeft="392,61" />
+        <EdgeLayout
+          Id="Package\ReporteFinal.Paths[OLE DB Source Output]"
+          TopLeft="484.5,103.666666666667">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,46.3333333333333"
+              Start="0,0"
+              End="0,38.8333333333333">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,38.8333333333333" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\ReporteFinal.Paths[Data Conversion Output]"
+          TopLeft="485,192.666666666667">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,42.3333333333333"
+              Start="0,0"
+              End="0,34.8333333333333">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,34.8333333333333" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\ReporteFinal\guardarTablaReporte">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\ReporteFinal\generarTablaReporte">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -3660,101 +3747,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\extraerDataOrigen\tabla2Temp">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\ReporteFinal">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="181.333333333334,42.6666666666667"
-          Id="Package\ReporteFinal\guardarTablaReporte"
-          TopLeft="393,235" />
-        <NodeLayout
-          Size="158.666666666667,42.6666666666667"
-          Id="Package\ReporteFinal\Data Conversion"
-          TopLeft="407,150" />
-        <NodeLayout
-          Size="181.333333333334,42.6666666666667"
-          Id="Package\ReporteFinal\generarTablaReporte"
-          TopLeft="392,61" />
-        <EdgeLayout
-          Id="Package\ReporteFinal.Paths[OLE DB Source Output]"
-          TopLeft="484.5,103.666666666667">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,46.3333333333333"
-              Start="0,0"
-              End="0,38.8333333333333">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,38.8333333333333" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\ReporteFinal.Paths[Data Conversion Output]"
-          TopLeft="485,192.666666666667">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,42.3333333333333"
-              Start="0,0"
-              End="0,34.8333333333333">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,34.8333333333333" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\ReporteFinal\guardarTablaReporte">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\ReporteFinal\generarTablaReporte">
+    design-time-name="Package\extraerDataOrigen\tabla1Temp">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
